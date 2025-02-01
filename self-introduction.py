@@ -4,7 +4,7 @@ import streamlit as st
 password = st.text_input("パスワードを入力してください:", type="password")
 
 # 正しいパスワード
-correct_password = "知るか"  # ここに自分が決めたパスワードを入れてね
+correct_password = "siruka"  # ここに自分が決めたパスワードを入れてね
 
 # パスワードが正しいかチェック
 if password == correct_password:
